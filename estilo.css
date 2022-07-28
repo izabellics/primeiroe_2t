@@ -1,0 +1,16 @@
+body {
+  background: black;
+}
+h1 {
+  text-align: center;
+  color: purple;
+}
+p {
+  color: white;
+}
+.caixal {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: PINK;
+}
