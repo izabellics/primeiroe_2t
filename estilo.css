@@ -1,16 +1,44 @@
 body {
-  background: black;
+  background: rgb(0, 0, 0);
 }
 h1 {
   text-align: center;
-  color: purple;
+  color: rgb(128, 0, 255);
 }
 p {
   color: white;
 }
-.caixal {
-  position: relative;
+.caixa1 {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background: #340049;
+   left: 50px;
+}
+.menuPrincipal {
+  position: absolute; 
+  background: rgba(213, 3, 255, 0.282);
   width: 100%;
-  height: 200px;
-  background-color: PINK;
+  height: 60px;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: crimson;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+li a:hover {
+  background: firebrick;
 }
