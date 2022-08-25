@@ -3,6 +3,11 @@ body {
 }
 h1 {
   text-align: center;
+  text-decoration: black;
+  text-decoration-style: dotted;
+}
+h2 {
+  color: rgb(13, 1, 54);
 }
 h3 {
   text-align: left;
@@ -64,7 +69,6 @@ li a:hover {
   justify-content: left;
 }
 
-}
 .rodape {
    position: absolute;
    width: 100%;
@@ -91,7 +95,7 @@ text-align: left;
 color: rgb(61, 37, 146);
 }
 h4 {
-  width: 50px;
+  color: rgb(12, 6, 39);
   
 }
 #logo {
